@@ -1,0 +1,69 @@
+<main id="main" class="grid-container grid-container--destination flow">
+  <h1 class="numbered-title">
+    <span aria-hidden="true">01</span> Pick your destination
+  </h1>
+  <picture>
+    <source
+      id="webp-image"
+      srcset="assets/destination/image-moon.webp"
+      type="image/webp"
+    />
+    <img
+      id="png-image"
+      src="assets/destination/image-moon.png"
+      alt="the moon"
+    />
+  </picture>
+  <div class="tab-list underline-indicators flex">
+    <button
+      aria-selected="true"
+      class="tab-planet uppercase ff-sans-cond text-accent letter-spacing-2"
+      id="moon"
+    >
+      Moon
+    </button>
+    <button
+      aria-selected="false"
+      class="tab-planet uppercase ff-sans-cond text-accent letter-spacing-2"
+      id="mars"
+    >
+      Mars
+    </button>
+    <button
+      aria-selected="false"
+      class="tab-planet uppercase ff-sans-cond text-accent letter-spacing-2"
+      id="europa"
+    >
+      Europa
+    </button>
+    <button
+      aria-selected="false"
+      class="tab-planet uppercase ff-sans-cond text-accent letter-spacing-2"
+      id="titan"
+    >
+      Titan
+    </button>
+  </div>
+
+  <article class="destination-info flow">
+    <h2 id="planet-name" class="fs-800 uppercase ff-serif">Moon</h2>
+
+    <p id="planet-description">
+      See our planet as you’ve never seen it before. A perfect relaxing trip
+      away to help regain perspective and come back refreshed. While you’re
+      there, take in some history by visiting the Luna 2 and Apollo 11 landing
+      sites.
+    </p>
+
+    <div class="destination-meta flex">
+      <div>
+        <h3 class="text-accent fs-200 uppercase">Avg. distance</h3>
+        <p id="planet-distance" class="ff-serif uppercase">384,400 km</p>
+      </div>
+      <div>
+        <h3 class="text-accent fs-200 uppercase">Est. travel time</h3>
+        <p id="planet-time" class="ff-serif uppercase">3 days</p>
+      </div>
+    </div>
+  </article>
+</main>
